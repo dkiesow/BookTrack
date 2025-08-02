@@ -10,3 +10,7 @@ BOOK_BASE_URL = "https://bigbookstore.com"
 # The path (absolute or relative) where the XLS export will be saved (string)
 EXPORT_PATH = "/path/to/booktrack_export.xlsx"
 
+# The absolute path to the SQLite database file
+DB_PATH = "/path/to/db/booktrack.db"
+
+
