@@ -37,4 +37,4 @@ but it has been effective enough for my needs.
 
 - The export script (`db/export_to_xls.py`) is a stand-alone script. Run it whenever you want to generate an XLSX file from the current database contents.
 - The application uses Selenium with undetected-chromedriver for reliable scraping.
-- All sensitive configuration should be kept in `config_private.py` (not versioned).
+- All sensitive configuration should be kept in `config.py` (not versioned).
