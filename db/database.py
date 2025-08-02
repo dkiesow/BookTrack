@@ -1,8 +1,11 @@
 import sqlite3
 import json
 from datetime import datetime
+import os
 
-DB_PATH = "/Users/kiesowd/PycharmProjects/BookTrack/booktrack.db"
+# Set DB_PATH relative to the project base directory
+PROJECT_BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DB_PATH = os.path.join(PROJECT_BASE, "booktrack.db")
 
 def init_db():
     print("[DB] Initializing database and ensuring listings table exists...")
