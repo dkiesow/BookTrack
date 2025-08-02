@@ -7,8 +7,8 @@
           <value>
             <PendingDiffInfo>
               <option name="filePath" value="$PROJECT_DIR$/.gitignore" />
-              <option name="originalContent" value="# ...existing code...&#10;test_scraper.py&#10;config.py&#10;&#10;" />
-              <option name="updatedContent" value="# ...existing code...&#10;test_scraper.py&#10;config.py&#10;booktrack.db" />
+              <option name="originalContent" value="# ...existing code...&#10;test_scraper.py&#10;config.py&#10;booktrack.db&#10;&#10;# Ignore PyCharm project files&#10;.idea/" />
+              <option name="updatedContent" value="# ...existing code...&#10;test_scraper.py&#10;config.py&#10;booktrack.db&#10;&#10;# Ignore PyCharm project files&#10;.idea/" />
             </PendingDiffInfo>
           </value>
         </entry>

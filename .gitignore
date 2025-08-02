@@ -1,4 +1,6 @@
-# ...existing code...
 test_scraper.py
 config.py
 booktrack.db
+
+# Ignore PyCharm project files
+.idea/
